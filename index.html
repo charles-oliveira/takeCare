@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Take Care - Cadastro de Idosos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Formulário -->
+      <form class="formulario">
+        <label for="login">Login</label>
+        <input
+          name="login"
+          type="email"
+          id="login"
+          placeholder="Digite aqui o seu login"
+          autocomplete="email"
+          maxlength="30"
+          required
+        />
+        <label for="senha">Senha</label>
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          placeholder="Digite aqui sua senha"
+          autocomplete="current-password"
+          minlength="8"
+          maxlength="20"
+          required
+        />
+        <label for="telefone">Telefone</label>
+        <input
+          type="tel"
+          name="telefone"
+          id="telefone"
+          placeholder="(83) 9 9999-9999"
+          autocomplete="tel-local-prefix"
+          required
+        />
+        <label for="cidade">Cidade</label>
+        <input
+          type="text"
+          name="cidade"
+          id="cidade"
+          placeholder="nome da cidade"
+          required
+        />
+        <label for="endereco">Endereço</label>
+        <input
+          type="text"
+          name="endereço"
+          id="endereco"
+          placeholder="Digite aqui o seu endereço residencial"
+          required
+        />
+        <label for="idade">Idade</label>
+        <input
+          type="number"
+          name="idade"
+          id="idade"
+          placeholder="Digite aqui sua idade"
+          required
+        />
+        <input type="submit" value="Cadastrar" />
+      </form>
+      <div class="img-logo">
+        <!-- <p>
+          Texto de apresentação do site, com uma breve descrição do que ele
+        </p> -->
+        <img
+          src="./assets/idoso-2.png"
+          alt="casal de idosos se abraçando, logo"
+          class="logo"
+        />
+      </div>
+    </div>
+  </body>
+</html>
